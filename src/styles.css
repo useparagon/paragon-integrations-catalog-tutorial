@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.catalog > div {
+  width: 200px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+
+.catalog > div p {
+  margin: 4px 0;
+  font-weight: 600;
+}
+
+.catalog > div .connection {
+  font-weight: 400;
+  color: gray;
+}
